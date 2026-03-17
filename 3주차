@@ -1,0 +1,10 @@
+클로드 코드: 터미널(명령 프롬프트)에서 실행되는 AI 코딩 도구
+
+터미널: 텍스트 명령어로 컴퓨터를 조작하는 도구
+dir - 현재 폴더의 파일 목록
+cd - 폴더 이동
+mkdir - 새 폴더 만들기
+pwd - 현재 폴더 위치
+
+터미널에서 claude-code 설치(npm install -g @anthropic-ai/claude-code) > claude 실행 > 로그인
+
