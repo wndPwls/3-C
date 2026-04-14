@@ -7,5 +7,3 @@ API(Application Programming Interface)
 프로그램과 AI 모델을 이어주는 다리
 AI가 이미지를 해석하고 결과를 돌려준다.
 사용자가 업로드할 인터페이스만 제공하고, 핵심 AI 기능은 API가 처리
-
-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
