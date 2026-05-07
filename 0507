@@ -1,0 +1,35 @@
+@ModelAttribute
+
+• 메서드 매개변수 또는 메서드 반환 값을 웹 뷰에 전달되는 모델 속성에
+바인딩하는 어노테이션
+• @RequestMapping 메서드가 있는 컨트롤러 클래스에서 지원됨
+• JSP 폼에서 입력된 데이터가 컨트롤러에 전달되면 Java Bean 객체에
+전달받은 데이터를 채움
+• 컨트롤러 안에 @RequestMapping이 적용된 요청 처리 메소드의 매개변수에
+설정하여 사용
+
+public String method_name(@ModelAttribute 매개변수,
+Model model) {
+// model.addAttribute(...);
+return "뷰이름";
+}
+
+
+• 스프링 폼 태그
+
+• 스프링 웹 MVC와 연동되는 JSP 태그 라이브러리
+
+• 스프링 폼 태그를 사용하는 경우
+
+• HTML 폼에서 전달되는 파라미터 이름으로
+
+Getter() 메서드를 작성한 Java Bean 클래스의 프로퍼티(필드 이름)에
+값을 자동 설정할 수 있음
+
+• 컨트롤러가 다루는 데이터를 참조할 수 있어 동적 웹 애플리케이션을 더 쉽고
+편리하게 개발하고 유지 관리 가능
+
+• 스프링 폼 태그를 사용하려면 JSP 상단에 스프링 폼 태그 라이브러리를 선언
+필요
+
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
